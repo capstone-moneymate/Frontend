@@ -12,12 +12,10 @@ const queryClient = new QueryClient({
   },
 })
 
-function App() {
+export const App = () => {
   return (
     <QueryClientProvider client={queryClient}>
       <RouterProvider router={router} />
     </QueryClientProvider>
   )
 }
-
-export default App
