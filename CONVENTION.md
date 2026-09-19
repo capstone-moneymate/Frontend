@@ -19,6 +19,8 @@
 ```
 
 1. GitHub에서 **이슈를 생성**합니다. (템플릿 선택)
+   - `feat` / `fix` / `design` / `refactor`는 각각의 템플릿을 씁니다.
+   - 문서·설정·CI 등 그 외 작업은 **Chore / Docs** 템플릿을 쓰고, 제목의 타입(`chore:`)을 작업에 맞게(`docs:`, `ci:` 등) 바꿉니다.
 2. `develop`을 최신으로 받은 뒤 **작업 브랜치를 만듭니다.**
    ```bash
    git checkout develop
