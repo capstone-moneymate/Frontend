@@ -1,0 +1,53 @@
+'api':
+  - changed-files:
+      - any-glob-to-any-file: 'src/api/**/*'
+
+'bug':
+  - changed-files:
+      - any-glob-to-any-file:
+          - '**/*bug*'
+          - '**/*fix*'
+
+'component':
+  - changed-files:
+      - any-glob-to-any-file: 'src/components/**/*'
+
+'config':
+  - changed-files:
+      - any-glob-to-any-file:
+          - '*.json'
+          - '*.js'
+          - '*.ts'
+          - 'tsconfig*.json'
+          - 'vite.config.*'
+          - 'eslint.config.*'
+          - '.github/**/*'
+
+'documentation':
+  - changed-files:
+      - any-glob-to-any-file:
+          - '**/*.md'
+          - 'docs/**/*'
+
+'hooks':
+  - changed-files:
+      - any-glob-to-any-file: 'src/hooks/**/*'
+
+'page':
+  - changed-files:
+      - any-glob-to-any-file: 'src/pages/**/*'
+
+'store':
+  - changed-files:
+      - any-glob-to-any-file: 'src/store/**/*'
+
+'style':
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'src/styles/**/*'
+          - '**/*.css'
+          - '**/*.scss'
+
+'types':
+  - changed-files:
+      - any-glob-to-any-file: 'src/types/**/*'
