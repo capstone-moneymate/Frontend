@@ -26,7 +26,6 @@ jobs:
 
       - name: Run Lint Check
         run: pnpm run lint
-        continue-on-error: true # 빌드 테스트 먼저 진행할 수 있도록 설정
 
       - name: Build test
         run: pnpm run build
