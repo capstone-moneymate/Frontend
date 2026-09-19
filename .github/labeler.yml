@@ -18,9 +18,12 @@
           - '*.json'
           - '*.js'
           - '*.ts'
+          - 'pnpm-lock.yaml'
+          - 'pnpm-workspace.yaml'
           - 'tsconfig*.json'
           - 'vite.config.*'
           - 'eslint.config.*'
+          - '.prettierrc*'
           - '.github/**/*'
 
 'documentation':
